@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "product-shop",
-    "slug": "product-shop",
+    "slug": "product-shops",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.tofu1.productshops"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e2c578d7-facd-4556-85c1-a5dfcb6ecb47"
+      }
+    },
+    "owner": "tofu1"
   }
 }
